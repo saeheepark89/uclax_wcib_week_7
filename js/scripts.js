@@ -18,14 +18,14 @@ jQuery(function() {
 			$('#image-box').attr('src','images/brooklyn.jpg');
 			$('#imagetitle').text('West Village');
 			$('p').text('The West Village draws fashionable crowds to its designer boutiques and trendy restaurants. Quaint streets, some still cobblestoned, are lined with Federal-style townhouses and dotted with public squares. Fun fact: this is the neighborhood where the apartment from Friends is! Sex & the City was filmed here also.');
-			$('#my_button').text('Lets Bike Over the Bridge to Brooklyn');
+			$('#my_button').text('Bike Over the Bridge to Brooklyn');
 
 		}else if(src == 'images/brooklyn.jpg') {
 			$('.row').hide().fadeIn(1250);
 			$('#image-box').attr('src','images/dumbo.jpg');
 			$('#imagetitle').text('Dumbo');
 			$('p').text('Trendy cobblestoned streets and converted warehouses buildings are the backdrop for independent boutiques, fun cafes and restaurants. The north end of Brooklyn Bridge Park features historic Jane Carousel as well as picturesque views of the Manhattan Skyline.');
-			$('#my_button').text('Lets Bike back to the Park');
+			$('#my_button').text('Bike back to the Park');
 
 		}else if(src == 'images/dumbo.jpg') {
 			$('.row').hide().fadeIn(1250);
