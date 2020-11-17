@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -19,25 +21,34 @@
 
   <body>
 
-    <h1>Week 7, Part 1</h1>
+    <h1> <img src="images/title.png" id="title" alt="Foliage Tour">
+    </h1>
+    <h2>Autumn is the best time of the year as the temperature cools down and the leaves start changing colors.
+      <br>
+      Lets bike around New York City to see the most incredible colors of autumn!
+    </h2>
 
-    <div class="board">
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-		</div>
 
-		<p>
-      <img src="images/kitten.png" id="my_image" class="animal">
-    </p>
+    <div class="row">
+      <div class="col project">
+        <div class="img-overlay">
+          <img src="images/nyc.jpg" class="image" id="image-box" alt="new york city">
+          <div class="project-overlay"></div>
+        </div>
+      </div>
 
-		<button id="my_button" class="btn btn-primary">Button</button>
+      <div class="col">
+      <h3 id="imagetitle">Central Park</h3>
+      <p>
+        Central Park, New York City's most loved place, is located between the Upper West and Upper East Sides of Manhattan.
+        The park has natural-looking plantings and landforms, having been almost entirely landscaped when built in the 1850s and 1860s. It has eight lakes and ponds that were created artificially by damming natural seeps and flows. There are several wooded sections, lawns, meadows, and grassy areas.
+      </p>
+      <button id="my_button" class="btn btn-primary">Keep Riding Around the Park</button>
+    </div>
+  </div>
+
+
+
 
 	</body>
 
